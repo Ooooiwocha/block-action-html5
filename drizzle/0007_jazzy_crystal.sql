@@ -1,0 +1,1 @@
+ALTER TABLE `stages` ADD `card_candidate` integer DEFAULT 0 NOT NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE `stages` ADD `hannya` integer DEFAULT 0 NOT NULL;

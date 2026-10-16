@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791489051855,
+      "tag": "0000_easy_mad_thinker",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791576596726,
+      "tag": "0001_perpetual_obadiah_stane",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791625381847,
+      "tag": "0002_fat_felicia_hardy",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1791727667698,
+      "tag": "0003_special_chamber",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1791731022873,
+      "tag": "0004_tough_franklin_storm",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1791810000000,
+      "tag": "0005_level_notifications",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1791997736925,
+      "tag": "0006_stale_crystal",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1791998599475,
+      "tag": "0007_jazzy_crystal",
+      "breakpoints": true
+    }
+  ]
+}

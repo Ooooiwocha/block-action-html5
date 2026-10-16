@@ -1,0 +1,9 @@
+#bgm-player{position:absolute;z-index:3;left:.99%;top:94.73%;width:19.08%;height:4.69%;box-sizing:border-box;display:flex;align-items:center;gap:.3em;padding:0 .35em;border:1px solid #8e6d24;border-radius:3px;background:rgba(255,222,142,.35);color:#342811;font-family:"Times New Roman",serif;line-height:1;text-align:left;cursor:pointer;touch-action:manipulation;overflow:hidden;user-select:none}
+#bgm-player:hover{background:rgba(255,235,180,.65)}
+#bgm-player:focus-visible{outline:2px solid #563b0e;outline-offset:2px}
+.bgm-prefix{flex:none;white-space:nowrap}
+.bgm-title-window{min-width:0;flex:1;overflow:hidden}
+.bgm-title{display:block;width:max-content;white-space:nowrap}
+.bgm-scrolling{animation:bgm-scroll var(--bgm-duration) linear infinite alternate}
+@keyframes bgm-scroll{0%,15%{transform:translateX(0)}85%,100%{transform:translateX(var(--bgm-travel))}}
+@media(prefers-reduced-motion:reduce){.bgm-scrolling{animation:none}}

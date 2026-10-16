@@ -1,0 +1,3 @@
+export function parseBookmarkIds(value){if(typeof value!=='string'||value.length>16000)return [];return [...new Set(value.split(',').filter(s=>/^[1-9]\d*$/.test(s)).map(Number).filter(Number.isSafeInteger))].slice(0,1000);}
+export function mergeBookmarkIds(existing,incoming,available){const next=new Set(existing);let added=0;for(const id of incoming)if(available.has(id)&&!next.has(id)){next.add(id);added++;}return {ids:[...next],added};}
+export function bookmarkTransferURL(origin,ids){const url=new URL('/',origin);url.searchParams.set('bookmark_id',[...ids].sort((a,b)=>a-b).join(','));return url.href;}
